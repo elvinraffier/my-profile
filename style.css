@@ -1,0 +1,103 @@
+body {
+  color: #343633;  
+	background-color:#D7C9AA;  
+    font-family: 'Raleway', sans-serif;
+}
+
+
+h1, h2 {
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+
+h1 {
+  color: #5296A5;
+	font-size: 50px;
+	font-weight: 50;
+    text-transform: uppercase;
+}
+
+h2 {
+  color: darkslategrey;
+	font-size: 25px;
+	font-weight: lighter;
+	font-weight: 30;
+}
+
+a {
+	text-decoration: none;
+	color: #5296A5;
+	font-family: Courier;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+
+/* Custom and Design */
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+
+@media (max-width: 760px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 500px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
+
+
+.card-white {
+	background-color: lightgrey;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.4);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+
+.btn-blue{
+	background-color:#5296A5;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover{
+	background-color:black;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
